@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nama Acak, Kalkulator, Cek Baterai, Nama Keren, dan Cek Khodam</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>website gabut</h1>
+
+        <!-- Kalkulator -->
+        <section class="calculator">
+            <h2>Kalkulator</h2>
+            <input type="text" id="calc-screen" disabled>
+            <div class="buttons">
+                <button onclick="appendToScreen('1')">1</button>
+                <button onclick="appendToScreen('2')">2</button>
+                <button onclick="appendToScreen('3')">3</button>
+                <button onclick="appendToScreen('+')">+</button>
+                <button onclick="appendToScreen('4')">4</button>
+                <button onclick="appendToScreen('5')">5</button>
+                <button onclick="appendToScreen('6')">6</button>
+                <button onclick="appendToScreen('-')">-</button>
+                <button onclick="appendToScreen('7')">7</button>
+                <button onclick="appendToScreen('8')">8</button>
+                <button onclick="appendToScreen('9')">9</button>
+                <button onclick="appendToScreen('*')">*</button>
+                <button onclick="appendToScreen('0')">0</button>
+                <button onclick="clearScreen()">C</button>
+                <button onclick="calculateResult()">=</button>
+                <button onclick="appendToScreen('/')">/</button>
+            </div>
+        </section>
+
+        <!-- Cek Baterai -->
+        <section class="battery-check">
+            <h2>Cek Baterai</h2>
+            <p id="battery-status">Memeriksa status baterai...</p>
+        </section>
+
+        <!-- Nama Acak -->
+        <section class="name-generator">
+            <h2>Generator Nama Acak</h2>
+            <button onclick="generateRandomName()">Generate Nama Acak</button>
+            <p id="random-name">Nama Acak akan muncul di sini</p>
+        </section>
+
+        <!-- Nama Keren -->
+        <section class="cool-name-generator">
+            <h2>Generator Nama Keren</h2>
+            <button onclick="generateCoolName()">Generate Nama Keren</button>
+            <p id="cool-name">Nama Keren akan muncul di sini</p>
+        </section>
+
+        <!-- Cek Khodam -->
+        <section class="khodam-check">
+            <h2>Cek Khodam</h2>
+            <button onclick="generateKhodam()">Generate Khodam</button>
+            <p id="khodam-name">Khodam akan muncul di sini</p>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
