@@ -82,8 +82,8 @@ Proyek ini dilisensikan di bawah **MIT License** - lihat file [LICENSE](LICENSE)
 ## Screenshot Tampilan 📸
 
 ![Screenshot Kalkulator](https://i.postimg.cc/qqjDVF8c/Screenshot-20241121-072123.png)
-![Screenshot Nama Generator](https://via.placeholder.com/800x400.png?text=Nama+Generator)
-![Screenshot Cek Baterai](https://via.placeholder.com/800x400.png?text=Cek+Baterai)
+![Screenshot Nama Generator](https://i.postimg.cc/SKCZNR6x/Screenshot-20241121-072144.png)
+![Screenshot Cek Baterai](https://i.postimg.cc/htHyBT7Y/Screenshot-20241121-072152.png)
 
 ## Kontribusi 🤝
 
